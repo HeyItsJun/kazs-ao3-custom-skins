@@ -1,19 +1,23 @@
+/*         
+*   almost 1:1 value-substituting howl's day theme, but oh well 
+*/
+
 #header {
     background-image: url(https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/main/assets/kaoru-hana/kaoru-pinkish-header.jpeg);
     background-repeat: no-repeat;
     background-position: center 55%;
-    background-color: #784848;
+    background-color: #000;
     background-size: cover;
     height: 240px;
 }
 
 #outer.wrapper {
-  background: #784848;
+  background: #3E2221;
   background-image: url("https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/main/assets/kaoru-hana/kaoru-rin-bg.jpg");
   background-size: 30% auto;
   background-repeat: repeat;
   background-position: center top;
-  color: d89090;
+  color: #E2A094;
 }
 
 #inner.wrapper {
@@ -25,11 +29,11 @@
 .listbox .index,
 .work.own,
 .thread .even {
-  background: #d89090;
+  background: #6B3A38;
 }
 
 #main .heading {
-  color: #d89090 !important;
+  color: #fff !important;
 }
 
 #header .heading {
@@ -37,10 +41,358 @@
 }
 
 #header .primary {
-  background: #784848;
+  background: #3E2221;
 }
 
 #header .logo,
 #header .heading sup {
   visibility: hidden;
+}
+
+
+#header .heading a {
+  color: #E2A094;
+}
+
+#header .heading {
+  margin-left: 0;
+}
+
+#header .heading a {
+  margin-left: 0;
+}
+
+.event .userstuff {
+  background: #3E2221;
+  border: 1px solid #E2A094;
+}
+
+.filtering .filters #leave_filters {
+  background: #3E2221;
+  color: #E2A094;
+}
+
+#main a {
+  color: #fff;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #E2A094 !important;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #3E2221;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #3E2221;
+  color: #E2A094 !important;
+  border: 1px solid #3E2221;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #3E2221 !important;
+  border: none;
+  color: #E2A094;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  color: #E2A094;
+  background: #3E2221;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #E2A094;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #E2A094;
+  border-bottom: 2px solid #E2A094;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  color: #E2A094;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+  background: #3E2221;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #E2A094;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+  background: #3E2221;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #3E2221;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #E2A094;
+}
+
+#footer {
+  background: #6B3A38;
+  color: #E2A094;
+  border-top: 3px solid #E2A094;
+}
+
+#footer a,
+#footer .heading {
+  color: #E2A094;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions button,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #3E2221;
+  border: 1px solid #E2A094;
+  color: #E2A094;
+  border-radius: 5px;
+}
+
+.current,
+#dashboard .current {
+  background: #3E2221 !important;
+  color: #E2A094 !important;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #E2A094;
+  border-bottom: 5px solid #E2A094;
+}
+
+#dashboard a:hover {
+  background: #E2A094;
+  color: #3E2221 !important;
+}
+
+#dashboard a {
+  color: #E2A094;
+}
+
+dl.meta {
+  border: 1px solid #E2A094;
+}
+
+.listbox .index {
+  background: #3E2221;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #3E2221;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #3E2221 !important;
+  color: #E2A094 !important;
+  border: 1px solid #E2A094;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #E2A094;
+}
+
+span.delete {
+  background: #3E2221;
+}
+
+span.delete a {
+  color: #3E2221 !important;
+  font-weight: bold;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #3E2221;
+  border: 1px solid #E2A094;
+}
+
+.dropdown {
+  background: #3E2221;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #3E2221;
+  color: #E2A094;
+}
+
+li.blurb {
+  border: 1px solid #E2A094;
+}
+
+.draft {
+  background: #3E2221;
+  color: #E2A094;
+}
+
+#header h2,
+.draft .wrapper {
+  background: #3E2221;
+  border: 1px solid #E2A094;
+}
+
+#stat_chart svg {
+  filter: invert(90%) sepia(150%) brightness(60%) hue-rotate(60deg) saturate(120%);
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #3E2221;
+}
+
+#modal,
+span.replied {
+  background: #3E2221;
+  color: #E2A094;
+  border: 2px solid #E2A094;
+}
+
+.thread .even {
+  background: #3E2221;
+}
+
+.unread {
+  background: #3E2221;
+}
+
+span.unread {
+  background: #3E2221;
+  color: #E2A094;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: none;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.filters .expander {
+  background: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png") left center no-repeat;
+  color: #E2A094 !important;
+  font-weight: bold;
+}
+
+.filters .expanded .expander {
+  background: url("https://64.media.tumblr.com/dab095a2fd9387bc1e0c57747ba6b13f/94c6737c6db9ad60-ad/s1280x1920/c1a4e14e0565cdcac5d3e20bebac3ab440f2d607.png") left center no-repeat;
+}
+
+.blurb h4 a:visited {
+  color: #F3C1BA !important;
+}
+
+#main a:hover {
+  background: #E2A094;
+  color: #3E2221;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #3E2221;
+}
+
+#header .heading {
+  position: relative;
+  left: -40px;
+}
+
+#header #search .text,
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #3E2221 !important;
+  color: #E2A094 !important;
+  border: 1px solid #B06C6B;
+}
+
+h4.heading.byline {
+  background: #3E2221;
+  color: #E2A094;
+}
+
+#header form.search input[type="submit"] {
+  display: none !important;
+}
+
+#dashboard {
+  border: none !important;
+}
+
+#dashboard,
+#dashboard .primary,
+#dashboard .navigation {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
