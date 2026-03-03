@@ -9,8 +9,8 @@ To customize an AO3 skin thoroughly, you need to target the high-level layout co
 
 Below is a comprehensive categorization of the primary HTML elements, IDs, and classes used across the site, derived from the `otwarchive` source code and common skinning practices.
 
-### 1. Global Layout (High-Level Containers)
-------
+
+## 1. Global Layout (High-Level Containers)
 
 These wrap every page on the site. Customizing these changes the overall "frame" of the Archive.
 
@@ -26,8 +26,7 @@ These wrap every page on the site. Customizing these changes the overall "frame"
 * `#dashboard`: The sidebar seen on user profiles and "My Works" pages.
 
 
-### 2. Work Listings (The "Blurb")
-------
+## 2. Work Listings (The "Blurb")
 
 When you browse works, each result is a `li` element with the class `.blurb`. This is one of the most common targets for skins.
 
@@ -41,8 +40,7 @@ When you browse works, each result is a `li` element with the class `.blurb`. Th
 * `dl.stats`: The numbers at the bottom (Words, Kudos, Comments).
 
 
-### 3. Reading a Work (The Work Page)
-------
+## 3. Reading a Work (The Work Page)
 
 These elements appear when you are actually reading a story.
 
@@ -60,7 +58,7 @@ These elements appear when you are actually reading a story.
 * `ol.thread`: The list of comments.
 
 
-### <ins>4. Metadata and Tags</ins>
+## 4. Metadata and Tags
 
 AO3 uses specific classes for different types of tags in the `dl.meta` or `.blurb` sections:
 
@@ -71,8 +69,7 @@ AO3 uses specific classes for different types of tags in the `dl.meta` or `.blur
 * `.fandoms`: Fandom names.
 
 
-### 5. UI Components & Forms
-------
+## 5. UI Components & Forms
 
 For a truly "thorough" skin, you may want to style these interactive elements:
 
@@ -83,7 +80,7 @@ For a truly "thorough" skin, you may want to style these interactive elements:
 * `.pagination`: The page numbers at the bottom of lists.
 
 
-### Pro-Tip for Customization:
+## Pro-Tip for Customization:
 
 If you want to find a specific element not listed here (like a specific button on the "Post New" page), use your browser's **Inspect Tool** (Right-click > Inspect).
 
