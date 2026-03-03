@@ -10,6 +10,7 @@ To customize an AO3 skin thoroughly, you need to target the high-level layout co
 Below is a comprehensive categorization of the primary HTML elements, IDs, and classes used across the site, derived from the `otwarchive` source code and common skinning practices.
 
 ### 1. Global Layout (High-Level Containers)
+------
 
 These wrap every page on the site. Customizing these changes the overall "frame" of the Archive.
 
@@ -26,6 +27,7 @@ These wrap every page on the site. Customizing these changes the overall "frame"
 
 
 ### 2. Work Listings (The "Blurb")
+------
 
 When you browse works, each result is a `li` element with the class `.blurb`. This is one of the most common targets for skins.
 
@@ -40,6 +42,7 @@ When you browse works, each result is a `li` element with the class `.blurb`. Th
 
 
 ### 3. Reading a Work (The Work Page)
+------
 
 These elements appear when you are actually reading a story.
 
@@ -57,7 +60,7 @@ These elements appear when you are actually reading a story.
 * `ol.thread`: The list of comments.
 
 
-### 4. Metadata and Tags
+### <ins>4. Metadata and Tags</ins>
 
 AO3 uses specific classes for different types of tags in the `dl.meta` or `.blurb` sections:
 
@@ -69,6 +72,7 @@ AO3 uses specific classes for different types of tags in the `dl.meta` or `.blur
 
 
 ### 5. UI Components & Forms
+------
 
 For a truly "thorough" skin, you may want to style these interactive elements:
 
