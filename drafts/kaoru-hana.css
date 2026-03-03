@@ -1,19 +1,19 @@
 #header {
-    background-image: url(https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/blob/main/assets/kaoru-hana/kaoru-rin-header.jpg);
+    background-image: url(https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/main/assets/kaoru-hana/kaoru-header.jpg);
     background-repeat: no-repeat;
     background-position: center 55%;
-    background-color: #D89090;
+    background-color: #A86078;
     background-size: cover;
     height: 240px;
 }
 
 #outer.wrapper {
   background: #a86078;
-  background-image: url("https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/blob/main/assets/kaoru-hana/kaoru-rin-bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/main/assets/kaoru-hana/kaoru-rin-bg.jpg");
   background-size: 30% auto;
   background-repeat: repeat;
   background-position: center top;
-  color: #f4e0e0;
+  color: d89090;
 }
 
 #inner.wrapper {
@@ -25,11 +25,11 @@
 .listbox .index,
 .work.own,
 .thread .even {
-  background: #f4e0e0;
+  background: #d89090;
 }
 
 #main .heading {
-  color: #dedca9 !important;
+  color: #d89090 !important;
 }
 
 #header .heading {
