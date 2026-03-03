@@ -1,91 +1,29 @@
 # AO3 Custom Skins
 
+## How To: apply AO3 skins
 
-## Intro to AO3's Elements
+### 1. View your Skins
+First go to **"My Dashboard"**. There, below the "Preferences" tab, you will find the **"Skins"** tab. Click on it.
 
-> *Prompt to Gemini: get all the visible elements of the site.*
-
-To customize an AO3 skin thoroughly, you need to target the high-level layout containers, the specific content blocks (blurbs), and the meta-data fields. Because AO3 is built on Ruby on Rails, the HTML is generated dynamically via `.erb` templates in the `app/views` directory of the [repo](https://github.com/otwcode/otwarchive).
-
-Below is a comprehensive categorization of the primary HTML elements, IDs, and classes used across the site, derived from the `otwarchive` source code and common skinning practices.
+> By default you'll view your "Site Skins" first, which are the ones that apply to the whole site, not only a certain work `(#workskin=NAME)`
 
 
-## 1. Global Layout (High-Level Containers)
+### 2. Create Skins
+Click on the **"Create Site Skin"** button, regardless of your goal, be it a site or a work skin. That's something you can change with the drop-down menu for the "Type" field.
 
-These wrap every page on the site. Customizing these changes the overall "frame" of the Archive.
+You **have to** give it a **name** ("Title" field), which *has* to be unique.
 
-* `#outer`: The outermost wrapper for the entire page.
-* `#inner`: The container inside `#outer`, often used for setting site width/centering.
-* `#header`: The top navigation area.
-* `.menu`: The primary navigation links (Fandoms, Browse, etc.).
-* `.search`: The header search bar.
-* `.logo`: The AO3 logo element.
+- You can ignore the "Description", "Upload a preview", and "public" fields.
+- Description: personally, if the skin you're *creating* has been made by some user, I'd recommend you give credits when it's due.
+- Upload preview: like a pfp for the skin.
+- Public: in case you want to, well, apply for it to be made public. 
 
-* `#main`: The primary content area between the header and footer.
-* `#footer`: The bottom area containing site links and OTW information.
-* `#dashboard`: The sidebar seen on user profiles and "My Works" pages.
+In the CSS frame, paste *all* the code for the skin, don't leave anything.
 
-
-## 2. Work Listings (The "Blurb")
-
-When you browse works, each result is a `li` element with the class `.blurb`. This is one of the most common targets for skins.
-
-* `.blurb`: The container for a single work or bookmark in a list.
-* `.header.module`: The top part of the blurb (Title, Author, Fandoms).
-* `.declaration`: Contains the rating, category, and warnings icons.
-* `ul.required-tags`: The four square icons (Rating, Orientation, etc.).
-* `h4.heading`: The Title and Author line.
-* `h5.fandoms`: The fandom tags listed at the top.
-* `blockquote.summary`: The work's summary text.
-* `dl.stats`: The numbers at the bottom (Words, Kudos, Comments).
+Then click the **"Submit"** button that's below the form.
 
 
-## 3. Reading a Work (The Work Page)
+### 3. Use the Skin
+After clicking "Submit", it should show you the info and code of the skin you've just created. If ypu scroll all the way down, you'll see the **"Use"** button. Click on it to apply the skin.
 
-These elements appear when you are actually reading a story.
-
-* `#workskin`: A specific ID added to the work content. Note: "Work Skins" only affect elements inside this ID.
-* `.preface.group`: The top section of a work (Title, Summary, Notes).
-* `.title`: The work title.
-* `.byline`: The author's name.
-* `dl.work.meta`: The list of tags (Warnings, Relationships, Characters) at the top.
-
-* `#chapters`: The container for all chapter text.
-* `.userstuff`: The actual story text (this is where standard HTML like `<p>`, `<b>`, `<i>` lives).
-
-* `#feedback`: The section containing Kudos and Comments.
-* `.kudos`: The "X and Y left kudos" list.
-* `ol.thread`: The list of comments.
-
-
-## 4. Metadata and Tags
-
-AO3 uses specific classes for different types of tags in the `dl.meta` or `.blurb` sections:
-
-* `.warnings`: Archive Warnings.
-* `.relationships`: Relationship/Ship tags.
-* `.characters`: Character tags.
-* `.freeforms`: "Additional Tags."
-* `.fandoms`: Fandom names.
-
-
-## 5. UI Components & Forms
-
-For a truly "thorough" skin, you may want to style these interactive elements:
-
-* `button`, `.action`: Primary site buttons.
-* `.dropdown`: The hoverable menu items in the header.
-* `fieldset`: Grouped form elements (like in the Search or Filter sidebars).
-* `.notice`, `.error`: The flash messages that appear at the top of the page (e.g., "Successfully logged in").
-* `.pagination`: The page numbers at the bottom of lists.
-
-
-## Pro-Tip for Customization:
-
-If you want to find a specific element not listed here (like a specific button on the "Post New" page), use your browser's **Inspect Tool** (Right-click > Inspect).
-
-Because the repo is open-source, you can also look directly into the **[app/views](https://www.google.com/search?q=https://github.com/otwcode/otwarchive/tree/master/app/views)** folder in the GitHub repo. For example:
-
-* `app/views/layouts/_header.html.erb` shows the structure of the top navigation.
-* `app/views/works/_work_blurb.html.erb` shows exactly how search results are built.
-
+Alternatively, from the **"My Site Skins"** window, simply click the **"Use"** button to apply the skin.
