@@ -1,5 +1,5 @@
 #header {
-    background-image: url(https://github.com/HeyItsJun/kazs-ao3-custom-skins/blob/main/assets/kaoru-hana/kaoru-rin-header.jpg);
+    background-image: url(https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/blob/main/assets/kaoru-hana/kaoru-rin-header.jpg);
     background-repeat: no-repeat;
     background-position: center 55%;
     background-color: #D89090;
@@ -9,7 +9,7 @@
 
 #outer.wrapper {
   background: #a86078;
-  background-image: url("https://github.com/HeyItsJun/kazs-ao3-custom-skins/blob/main/assets/kaoru-hana/kaoru-rin-bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/HeyItsJun/kazs-ao3-custom-skins/blob/main/assets/kaoru-hana/kaoru-rin-bg.jpg");
   background-size: 30% auto;
   background-repeat: repeat;
   background-position: center top;
