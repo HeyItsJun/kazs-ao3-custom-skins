@@ -17,7 +17,7 @@
   background-size: 30% auto;
   background-repeat: repeat;
   background-position: center top;
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 #inner.wrapper {
@@ -51,7 +51,7 @@
 
 
 #header .heading a {
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 #header .heading {
@@ -64,12 +64,12 @@
 
 .event .userstuff {
   background: #3E2221;
-  border: 1px solid #E2A094;
+  border: 1px solid #ECDDD6;
 }
 
 .filtering .filters #leave_filters {
   background: #3E2221;
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 #main a {
@@ -78,7 +78,7 @@
 
 #greeting a.dropdown-toggle,
 #header .actions a {
-  color: #E2A094 !important;
+  color: #ECDDD6 !important;
 }
 
 #greeting .menu,
@@ -98,7 +98,7 @@ span.submit.actions input.button {
 #header #search .text,
 .search [role="tooltip"] {
   background: #3E2221;
-  color: #E2A094 !important;
+  color: #ECDDD6 !important;
   border: 1px solid #3E2221;
 }
 
@@ -107,7 +107,7 @@ form.search input[type=submit],
 .autocomplete div.dropdown ul {
   background: #3E2221 !important;
   border: none;
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 #header #search .text {
@@ -123,7 +123,7 @@ ul.notes,
 .comment_error,
 .kudos_error,
 .alert.flash {
-  color: #E2A094;
+  color: #ECDDD6;
   background: #3E2221;
   border: none;
 }
@@ -137,17 +137,17 @@ ul.notes a,
 .comment_error a,
 .kudos_error a,
 .alert.flash a {
-  color: #E2A094;
+  color: #ECDDD6;
   font-weight: bold;
 }
 
 .splash .module h3 {
-  color: #E2A094;
-  border-bottom: 2px solid #E2A094;
+  color: #ECDDD6;
+  border-bottom: 2px solid #ECDDD6;
 }
 
 .splash .favorite li:nth-of-type(2n+1) a {
-  color: #E2A094;
+  color: #ECDDD6;
   font-weight: bold;
   font-variant: small-caps;
   font-size: 110%;
@@ -155,7 +155,7 @@ ul.notes a,
 }
 
 .splash .favorite li:nth-of-type(2n+2) a {
-  color: #E2A094;
+  color: #ECDDD6;
   font-weight: bold;
   font-variant: small-caps;
   font-size: 110%;
@@ -167,18 +167,18 @@ ul.notes a,
   color: #3E2221;
   font-weight: bold;
   font-variant: small-caps;
-  background: #E2A094;
+  background: #ECDDD6;
 }
 
 #footer {
   background: #6B3A38;
-  color: #E2A094;
-  border-top: 3px solid #E2A094;
+  color: #ECDDD6;
+  border-top: 3px solid #ECDDD6;
 }
 
 #footer a,
 #footer .heading {
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 .actions a,
@@ -194,34 +194,34 @@ ul.navigation.actions li a,
 .action:link,
 .actions a:link {
   background: #3E2221;
-  border: 1px solid #E2A094;
-  color: #E2A094;
+  border: 1px solid #ECDDD6;
+  color: #ECDDD6;
   border-radius: 5px;
 }
 
 .current,
 #dashboard .current {
   background: #3E2221 !important;
-  color: #E2A094 !important;
+  color: #ECDDD6 !important;
   border-radius: 5px;
 }
 
 #dashboard.own {
-  border-top: 5px solid #E2A094;
-  border-bottom: 5px solid #E2A094;
+  border-top: 5px solid #ECDDD6;
+  border-bottom: 5px solid #ECDDD6;
 }
 
 #dashboard a:hover {
-  background: #E2A094;
+  background: #ECDDD6;
   color: #3E2221 !important;
 }
 
 #dashboard a {
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 dl.meta {
-  border: 1px solid #E2A094;
+  border: 1px solid #ECDDD6;
 }
 
 .listbox .index {
@@ -247,15 +247,15 @@ textarea,
 span.symbol.question,
 .own {
   background: #3E2221 !important;
-  color: #E2A094 !important;
-  border: 1px solid #E2A094;
+  color: #ECDDD6 !important;
+  border: 1px solid #ECDDD6;
 }
 
 .autocomplete li.added,
 .post .meta dd ul li.added,
 label,
 label.required {
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 span.delete {
@@ -271,7 +271,7 @@ span.delete a {
 .dynamic form,
 div.dynamic {
   background: #3E2221;
-  border: 1px solid #E2A094;
+  border: 1px solid #ECDDD6;
 }
 
 .dropdown {
@@ -281,22 +281,22 @@ div.dynamic {
 form.verbose legend,
 .verbose form legend {
   background: #3E2221;
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 li.blurb {
-  border: 1px solid #E2A094;
+  border: 1px solid #ECDDD6;
 }
 
 .draft {
   background: #3E2221;
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 #header h2,
 .draft .wrapper {
   background: #3E2221;
-  border: 1px solid #E2A094;
+  border: 1px solid #ECDDD6;
 }
 
 #stat_chart svg {
@@ -314,8 +314,8 @@ dt.child {
 #modal,
 span.replied {
   background: #3E2221;
-  color: #E2A094;
-  border: 2px solid #E2A094;
+  color: #ECDDD6;
+  border: 2px solid #ECDDD6;
 }
 
 .thread .even {
@@ -328,7 +328,7 @@ span.replied {
 
 span.unread {
   background: #3E2221;
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 .relationships .tag,
@@ -341,7 +341,7 @@ dd.relationship.tags a {
 
 .filters .expander {
   background: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png") left center no-repeat;
-  color: #E2A094 !important;
+  color: #ECDDD6 !important;
   font-weight: bold;
 }
 
@@ -354,7 +354,7 @@ dd.relationship.tags a {
 }
 
 #main a:hover {
-  background: #E2A094;
+  background: #ECDDD6;
   color: #3E2221;
 }
 
@@ -372,13 +372,13 @@ form.search input[type=text],
 form.search input[type=submit],
 .autocomplete div.dropdown ul {
   background: #3E2221 !important;
-  color: #E2A094 !important;
+  color: #ECDDD6 !important;
   border: 1px solid #B06C6B;
 }
 
 h4.heading.byline {
   background: #3E2221;
-  color: #E2A094;
+  color: #ECDDD6;
 }
 
 #header form.search input[type="submit"] {
