@@ -18,7 +18,7 @@
   background-size: 50% auto;
   background-repeat: repeat;
   background-position: center top;
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 #inner.wrapper {
@@ -47,7 +47,7 @@
 }
 
 #header .heading a {
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 #header .heading {
@@ -60,12 +60,12 @@
 
 .event .userstuff {
   background: #223647;
-  border: 1px solid #dedca9;
+  border: 1px solid #D1E6D4;
 }
 
 .filtering .filters #leave_filters {
   background: #0d1d1f;
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 #main a {
@@ -74,7 +74,7 @@
 
 #greeting a.dropdown-toggle,
 #header .actions a {
-  color: #dedca9 !important;
+  color: #D1E6D4 !important;
 }
 
 #greeting .menu,
@@ -94,7 +94,7 @@ span.submit.actions input.button {
 #header #search .text,
 .search [role="tooltip"] {
   background: #0d1d1f;
-  color: #dedca9 !important;
+  color: #D1E6D4 !important;
   border: 1px solid #0d1d1f;
 }
 
@@ -103,7 +103,7 @@ form.search input[type=submit],
 .autocomplete div.dropdown ul {
   background: #0d1d1f !important;
   border: none;
-  color: #dedca9;
+  color: #D1E6D4;
   display: block;
 }
 
@@ -120,7 +120,7 @@ ul.notes,
 .comment_error,
 .kudos_error,
 .alert.flash {
-  color: #dedca9;
+  color: #D1E6D4;
   background: #0d1d1f;
   border: none;
 }
@@ -134,17 +134,17 @@ ul.notes a,
 .comment_error a,
 .kudos_error a,
 .alert.flash a {
-  color: #dedca9;
+  color: #D1E6D4;
   font-weight: bold;
 }
 
 .splash .module h3 {
-  color: #dedca9;
-  border-bottom: 2px solid #dedca9;
+  color: #D1E6D4;
+  border-bottom: 2px solid #D1E6D4;
 }
 
 .splash .favorite li:nth-of-type(2n+1) a {
-  color: #dedca9;
+  color: #D1E6D4;
   font-weight: bold;
   font-variant: small-caps;
   font-size: 110%;
@@ -152,7 +152,7 @@ ul.notes a,
 }
 
 .splash .favorite li:nth-of-type(2n+2) a {
-  color: #dedca9;
+  color: #D1E6D4;
   font-weight: bold;
   font-variant: small-caps;
   font-size: 110%;
@@ -161,21 +161,21 @@ ul.notes a,
 
 .splash .favorite li:nth-of-type(2n+1) a:hover,
 .splash .favorite li:nth-of-type(2n+2) a:hover {
-  color: #dedca9;
+  color: #D1E6D4;
   font-weight: bold;
   font-variant: small-caps;
-  background: #dedca9;
+  background: #D1E6D4;
 }
 
 #footer {
   background: #223647;
-  color: #dedca9;
-  border-top: 3px solid #dedca9;
+  color: #D1E6D4;
+  border-top: 3px solid #D1E6D4;
 }
 
 #footer a,
 #footer .heading {
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 .actions a,
@@ -191,34 +191,34 @@ ul.navigation.actions li a,
 .action:link,
 .actions a:link {
   background: #223647;
-  border: 1px solid #dedca9;
-  color: #dedca9;
+  border: 1px solid #D1E6D4;
+  color: #D1E6D4;
   border-radius: 5px;
 }
 
 .current,
 #dashboard .current {
   background: #0d1d1f !important;
-  color: #dedca9 !important;
+  color: #D1E6D4 !important;
   border-radius: 5px;
 }
 
 #dashboard.own {
-  border-top: 5px solid #dedca9;
-  border-bottom: 5px solid #dedca9;
+  border-top: 5px solid #D1E6D4;
+  border-bottom: 5px solid #D1E6D4;
 }
 
 #dashboard a:hover {
   background: #0d1d1f;
-  color: #dedca9 !important;
+  color: #D1E6D4 !important;
 }
 
 #dashboard a {
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 dl.meta {
-  border: 1px solid #dedca9;
+  border: 1px solid #D1E6D4;
 }
 
 .listbox .index {
@@ -244,15 +244,15 @@ textarea,
 span.symbol.question,
 .own {
   background: #0d1d1f !important;
-  color: #dedca9 !important;
-  border: 1px solid #dedca9;
+  color: #D1E6D4 !important;
+  border: 1px solid #D1E6D4;
 }
 
 .autocomplete li.added,
 .post .meta dd ul li.added,
 label,
 label.required {
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 span.delete {
@@ -268,7 +268,7 @@ span.delete a {
 .dynamic form,
 div.dynamic {
   background: #0d1d1f;
-  border: 1px solid #dedca9;
+  border: 1px solid #D1E6D4;
 }
 
 .dropdown {
@@ -278,22 +278,22 @@ div.dynamic {
 form.verbose legend,
 .verbose form legend {
   background: #0d1d1f;
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 li.blurb {
-  border: 1px solid #dedca9;
+  border: 1px solid #D1E6D4;
 }
 
 .draft {
   background: #0d1d1f;
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 #header h2,
 .draft .wrapper {
   background: #0d1d1f;
-  border: 1px solid #dedca9;
+  border: 1px solid #D1E6D4;
 }
 
 #stat_chart svg {
@@ -311,8 +311,8 @@ dt.child {
 #modal,
 span.replied {
   background: #0d1d1f;
-  color: #dedca9;
-  border: 2px solid #dedca9;
+  color: #D1E6D4;
+  border: 2px solid #D1E6D4;
 }
 
 .thread .even {
@@ -325,20 +325,20 @@ span.replied {
 
 span.unread {
   background: #0d1d1f;
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 .relationships .tag,
 .work .relationships a.tag,
 dd.relationship.tags a {
   background: none;
-  color: #dedca9 !important;
+  color: #D1E6D4 !important;
   font-weight: bold;
 }
 
 .filters .expander {
   background: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png") left center no-repeat;
-  color: #dedca9 !important;
+  color: #D1E6D4 !important;
   font-weight: bold;
 }
 
@@ -352,7 +352,7 @@ dd.relationship.tags a {
 
 #main a:hover {
   background: #0d1d1f;
-  color: dedca9;
+  color: D1E6D4;
 }
 
 .statistics .index li:nth-of-type(2n) {
@@ -369,13 +369,13 @@ form.search input[type=text],
 form.search input[type=submit],
 .autocomplete div.dropdown ul {
   background: #424347 !important;
-  color: #dedca9 !important;
+  color: #D1E6D4 !important;
   border: 1px solid #666666;
 }
 
 h4.heading.byline {
   background: #0d1d1f;
-  color: #dedca9;
+  color: #D1E6D4;
 }
 
 #header form.search input[type="submit"] {
