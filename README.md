@@ -15,12 +15,12 @@
 - Click on the **"Create Site Skin"** button. 
 
 - You **have to** give it a **name** ("Title" field), which *has* to be unique.
-<br>
-    >You can ignore the "Description", "Upload a preview", and "public" fields.
-    >- Description: personally, if the skin you're *creating* has been made by some user, I'd recommend you give credits when it's due.
-    >- Upload preview: like a pfp for the skin.
-    >- Public: in case you want to, well, apply for it to be made public. 
-<br>
+
+    > You can ignore the "Description", "Upload a preview", and "public" fields.
+    > - Description: personally, if the skin you're *creating* has been made by some user, I'd recommend you give credits when it's due.
+    > - Upload preview: like a pfp for the skin.
+    > - Public: in case you want to, well, apply for it to be made public. 
+
 - In the **CSS frame**, paste *all* the code for the skin; don't leave anything.
 
 - Then click the **"Submit"** button that's below the form.
